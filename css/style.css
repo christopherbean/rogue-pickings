@@ -1,0 +1,170 @@
+/*### BASE STYLES ###*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*### GRID ###*/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/*### HEADER ###*/
+
+header{
+    height: 110px;
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    margin: 50px 0px;
+    font-weight: bold;
+}
+
+header span {
+    color: #444444;
+}
+
+
+/*### NAV ###*/
+
+nav{
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    margin-top: 45px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #77a466;
+}
+
+/*### TOP SECTION ###*/
+
+#top-section img#hero-img{
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;  
+} 
+
+#top-section h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 30px 0px;
+    color: #77a466;
+}
+
+#top-section p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+/*### BOTTOM SECTION ###*/
+
+
+#bottom-section .specials, #bottom-section .review, #bottom-section .contact {
+    height: 210px;
+    box-sizing: border-box;
+    border-top: 1px solid #deddbc;
+}
+
+#bottom-section h3{
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#bottom-section .specials{
+    border-bottom: 1px solid #deddbc;
+}
+
+#bottom-section .specials ul li{
+    list-style: none;
+    padding-bottom: 20px;
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+/*### review ###*/
+
+#bottom-section .review {
+    padding: 0 30px;
+    border-bottom: 1px solid #deddbc;
+    border-right: 1px solid #deddbc;
+    border-left: 1px solid #deddbc;
+}
+
+#bottom-section .review p{
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+/*### CONTACT ###*/
+
+#bottom-section .contact{
+    padding: 0 30px;
+    border-bottom: 1px solid #deddbc;
+}
+
+#bottom-section .contact p{
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+
+
+/*### FOOTER ###*/
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 16px; 
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
+footer h2 span{
+    font-family: 'Dancing Script', cursive;
+    color: #77a446;
+    text-transform: lowercase;
+}
+
